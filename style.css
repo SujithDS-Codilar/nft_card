@@ -4,7 +4,6 @@ body {
   justify-content: center;
   align-items: center;
   font: 100%/1.5 "Outfit", sans-serif;
-  height: 100%;
   width: 100%;
   background-color: #0d192b;
   min-height: 100vh;
@@ -135,10 +134,16 @@ body {
   color: #00fff7;
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 600px) {
   html {
     font-size: 80%;
   }
+  
+.main_card {
+  
+  margin: 2.5rem;
+  
+}
 }
 
 /*# sourceMappingURL=style.css.map */
